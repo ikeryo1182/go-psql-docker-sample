@@ -8,5 +8,9 @@ CREATE SEQUENCE ID_SEQ
     NO CYCLE
 ;
 
-CREATE TABLE account (id int PRIMARY KEY, name text);
+CREATE TABLE ACCOUNT (
+    id int PRIMARY KEY,
+    name text
+);
+
 EOSQL
