@@ -6,7 +6,6 @@ import(
   "app/model"
   "net/http"
   "github.com/labstack/echo"
-    
   "database/sql"
   _ "github.com/lib/pq"
 )
@@ -96,6 +95,3 @@ func DeleteAccounts() echo.HandlerFunc {
     return c.JSON(http.StatusOK, id)
   }
 }
-
-
-

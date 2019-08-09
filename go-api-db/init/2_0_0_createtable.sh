@@ -1,5 +1,5 @@
 #!/bin/bash
-psql -U root -d testdb << "EOSQL"
+psql -U root -d goapi << "EOSQL"
 
 CREATE SEQUENCE ID_SEQ
     INCREMENT BY 1

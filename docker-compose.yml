@@ -9,7 +9,7 @@ services:
       - go-api-db
     volumes:
       - ./go-api/app:/go/src/app
-    command: bash -c 'cd /go/src/app/ && go run server.go'
+    command: bash -c 'cd /go/src/app/ && dep ensure && go run server.go'
     container_name: go-api-container
 
   go-api-db:
